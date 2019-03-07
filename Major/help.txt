@@ -1,0 +1,24 @@
+how to compile and run
+
+COMPILE--------
+
+cd C:\Users\Dell\Desktop\Newsletter
+
+javac -d classes/ src/com/ncu/exceptions/*.java
+
+javac -cp classes/;libs/log4j-1.2.17.jar -d classes/ src/com/ncu/validators/NameValidator.java
+
+javac -d classes/ src/com/ncu/main/deleteRecord.java
+javac -d classes/ src/com/ncu/main/displayTable.java
+javac -d classes/ src/com/ncu/main/edit.java
+javac -d classes/ src/com/ncu/main/FileAppend.java
+
+
+javac -cp classes/;libs/log4j-1.2.17.jar -d classes/ src/com/ncu/main/main_file.java
+
+
+RUN--------
+
+
+java -cp classes/;libs/log4j-1.2.17.jar com.ncu.main.Project
+
